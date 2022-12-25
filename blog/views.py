@@ -1,14 +1,14 @@
 from django.shortcuts import render
 # Create your views here.
 posts = [
-    {'author': 'CoreyMs',
+    {'author': 'Daniel Lee',
     'title' :  'Blog post 1',
     'content' : 'First post content',
-    'date_posted' : 'August 28, 2018'},
-     {'author': 'CoreyMs',
+    'date_posted' : 'August 28, 2022'},
+     {'author': 'Daniel Lee',
     'title' :  'Blog post 1',
     'content' : 'First post content',
-    'date_posted' : 'August 28, 2018'}
+    'date_posted' : 'December 25, 2022'}
 ]
 def home(request):
     context = {
